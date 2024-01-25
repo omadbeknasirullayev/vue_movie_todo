@@ -1,11 +1,13 @@
 <template>
     <ul class="movie-list list-goup" >
-        <MovieListItem v-for="movie in movies" :props="movie"/>   
+        <MovieListItem v-for="(movie, index) in movies" :key='index' :movie="movie"/>   
     </ul>
 </template>
 
 <script>
+
     import MovieListItem from "../movie-list-item/MovieListItem.vue"
+  
 
     export default {
         data() {

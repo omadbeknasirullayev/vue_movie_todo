@@ -18,7 +18,7 @@
 </template>
 
 
-<script>
+<script setup>
 
   import AppInfo from '@/components/app-info/AppInfo.vue';
   import SearchPanel from "@/components/search-panel/SearchPanel.vue"
@@ -26,15 +26,15 @@
   import MovieList from "../movie-list/MovieList.vue"
   import MovieAddForm from "../movie-add-form/MovieAddForm.vue"
 
-  export default {
-    components: {
-      AppInfo,
-      SearchPanel,
-      AppFilter,
-      MovieList,
-      MovieAddForm,
-    }
-  }
+  // export default {
+  //   components: {
+  //     AppInfo,
+  //     SearchPanel,
+  //     AppFilter,
+  //     MovieList,
+  //     MovieAddForm,
+  //   }
+  // }
 </script>
 
 <style>
